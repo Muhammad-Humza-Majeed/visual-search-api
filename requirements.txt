@@ -1,0 +1,11 @@
+Flask
+Flask-Cors
+pymongo
+tqdm
+Pillow
+numpy
+scipy # If you use scipy for any data processing, e.g., distance calculations
+faiss-cpu # Or faiss-gpu if you have a GPU and compiled FAISS with GPU support
+requests # For potentially fetching Shopify product details if not in Mongo
+python-dotenv # If you use .env file for environment variables
+gunicorn
